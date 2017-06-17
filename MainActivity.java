@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Adder a = new Adder();
         sum = a.adding(3,7);
-        sum+=1;
+        sum+=2;
         Toast.makeText(this, String.valueOf(sum), Toast.LENGTH_SHORT).show();
     }
 }

@@ -11,7 +11,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Adder a = new Adder();
-        sum = a.adding(3,6);
+        sum = a.adding(3,7);
+        sum+=2;
         Toast.makeText(this, String.valueOf(sum), Toast.LENGTH_SHORT).show();
     }
 }
